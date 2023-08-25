@@ -1,0 +1,11 @@
+.my-div {
+    text-align:left;
+    border: 1px solid #fcfcfc;
+    padding: 10px;
+    margin: 2% 10% 20% 10%;
+    background-color: #ffffffec;
+}
+
+.float-right {
+  float: right;
+}

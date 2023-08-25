@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-color: #00000021; 
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recipe App</h1>
+  
+  <div class="my-nav">
+    <h2>Saved Receipes<button class="btn btn-primary float-right" type="button" (click)="close()">back</button></h2>
+
+    <ul>
+    <li *ngFor="let recipe of savedRecipes">
+      <a (click)="showDetailedRecipe(recipe)">{{ recipe.title }}</a>
+    </li>
+  </ul>
+  </div>
+
+  <br>
+
+</body>
+</html>
+
+  
