@@ -11,3 +11,5 @@ pull command:
 run docker-compose.yml (this is upload in the repository):
 	
 	docker-compose up
+
+![DEMO](demonstration.gif)
